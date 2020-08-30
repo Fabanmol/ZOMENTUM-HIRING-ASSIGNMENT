@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+
+	background-color: rgba(247, 239, 151);
+
+}
+::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent;  
+}
+.row{
+	height: 100vh;
+
+}
+.image>img{
+height: 50px;
+width: 50px;
+border: 1px solid #ccc;
+border-radius: 50%;
+}
+.name{
+	padding-left: 5px;
+}
+.short-text{
+	font-size: 0.8em;
+	margin-top: -15px;
+	margin-left: 60px;
+}
+.person-wrapper{
+	background-color: rgb(201, 190, 66);
+	border-right: 1px solid #ccc;
+}
+.person-wrapper>div{
+	padding: 10px;
+	border-bottom: 1px solid rgb(158, 149, 51);
+}
+.person-element{
+	cursor: pointer;
+}
+.chat-wrapper{
+	text-align: center; 
+	margin-top: 10%;
+}
+.chat-wrapper>div>img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border:3px solid rgb(227, 211, 36);
+}
+.chat-wrapper>div>h3{
+	border-bottom: 1.5px solid #ccc;
+}
+.chat-wrapper>div>p{
+	padding: 5px;
+	margin: auto;
+	margin-top: 25px;
+	text-align: center;
+	width: 250px;
+	border-radius: 25px;
+	background-color: rgba(255, 201, 51);
+	border:2px solid rgb(227, 176, 36);
+
+}
+.form-wrapper>input:focus{
+	outline: none;
+}
+.form-wrapper>input{
+	width: 90%;
+	padding: 10px;
+	border:1px solid rgba(255, 201, 51); 
+	margin-top: 125px;
+	background-color: #fff;
+}
+.dispaly-form{
+	display: none;
+}

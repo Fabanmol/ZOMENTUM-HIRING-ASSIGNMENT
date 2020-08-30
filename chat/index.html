@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js" integrity="sha512-/seDHxVfh1NvFUscAj8GsHQVZJvr2jjAoYsNL7As2FCaFHUHYIarl3sRCvVlFgyouVNiRgHIebyLKjpgd1SLDw==" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+    	<div class="row" >
+    		<div class="col-3 person-wrapper">
+    			<script>
+				    for (var i = 0; i <= 8; i++) {
+				      document.write('<div class=" person-element bg-transparent">' + 
+				      	'<div class=" image d-inline bg-transparent"><img src='+faker.image.avatar()+'></div><div class=" name d-inline bg-transparent">'+ faker.name.findName()+'<br></div><div class="bg-transparent short-text">'+faker.random.words()+'</div>' 
+				      	+ '</div>');
+				    }
+				</script>
+    		</div>
+    		<div class="col-9 chat-wrapper">
+    			<div class="welcome" id="welcome">
+    				<img src="panda.jpg">
+    				<h3>Hello, Anmol</h3>
+    				<p>Say Hii, to your friend</p>
+    				<div class="dispaly-form" id="dispaly-form">
+	    				<form class="form-wrapper">
+	    					<input type="text" name="">
+	    				</form>
+	    			</div>
+    		</div>
+    	</div>
+    </div >
+
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
